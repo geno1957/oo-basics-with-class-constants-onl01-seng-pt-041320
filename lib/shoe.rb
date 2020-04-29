@@ -1,6 +1,6 @@
 class Shoe
-  attr_accessor :color, :size, :material
-  attr_reader :brand, :condtion
+  attr_accessor :color, :size, :material, :condtion
+  attr_reader :brand, 
   
   BRANDS = []
 
@@ -13,10 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-   brands = ["Uggs", "Rainbow"]
-      brands.each do |brand|
-        Shoe.new(brand)
-      end
+  
 
 end
 
