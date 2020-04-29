@@ -11,7 +11,7 @@ class Shoe
   # if !BRANDS.include?(brand)
   #   BRANDS << brand
   # end 
-  BRANDS << brand unless BRANDS.include?(brand)
+  # BRANDS << brand unless BRANDS.include?(brand)
   unless BRANDS.include?(brand) do 
     BRANDS << brand
   end 
