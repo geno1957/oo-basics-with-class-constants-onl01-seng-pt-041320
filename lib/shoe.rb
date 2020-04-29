@@ -13,7 +13,7 @@ class Shoe
   # end 
   BRANDS << brand unless BRANDS.include?(brand)
   unless BRANDS.include?(brand) do 
-    
+    BRANDS << brand
   end 
   
   end
