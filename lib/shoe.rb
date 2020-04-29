@@ -13,7 +13,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  
+   brands = ["Uggs", "Rainbow"]
+      brands.each do |brand|
+        Shoe.new(brand)
+      end
 
 end
 
