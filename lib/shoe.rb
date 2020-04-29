@@ -1,7 +1,6 @@
 class Shoe
   
   BRANDS = brand 
-  
   attr_accessor :color, :size, :material, :condtion
   attr_reader :brand 
   
